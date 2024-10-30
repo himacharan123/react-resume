@@ -1,7 +1,7 @@
 // src/components/CVDisplay.tsx
 import React from 'react';
 import { Card, CardContent, Typography, Box } from '@mui/material';
-import { Person, Email, Phone, School, Work } from '@mui/icons-material';
+import { Person, School, Work } from '@mui/icons-material';
 
 interface CVDisplayProps {
   data: {
