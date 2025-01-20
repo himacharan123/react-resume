@@ -13,6 +13,7 @@ interface GeneralInfoType {
   phone: string;
 }
 
+
 interface EducationExperienceType {
   school: string;
   title: string;

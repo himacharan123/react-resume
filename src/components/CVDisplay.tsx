@@ -11,6 +11,7 @@ interface CVDisplayProps {
   };
 }
 
+
 const CVDisplay: React.FC<CVDisplayProps> = ({ data }) => {
   return (
     <Box sx={{ mt: 4 }}>

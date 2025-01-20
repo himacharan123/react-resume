@@ -7,6 +7,7 @@ interface EducationExperienceProps {
   initialData?: { school: string; title: string; date: string } | null; // Allow null
 }
 
+
 const EducationExperience: React.FC<EducationExperienceProps> = ({
   onSubmit,
   initialData,
