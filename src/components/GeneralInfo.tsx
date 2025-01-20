@@ -4,14 +4,14 @@ import { TextField, Button, Box } from '@mui/material';
 
 interface GeneralInfoProps {
   onSubmit: (data: { name: string; email: string; phone: string }) => void;
-  initialData?: { name: string; email: string; phone: string } | null; // Allow null
+  initialData?: { name: string; email: string; phone: string } | null; 
 }
 
 const GeneralInfo: React.FC<GeneralInfoProps> = ({ onSubmit, initialData }) => {
   const [formData, setFormData] = useState(initialData || { name: '', email: '', phone: '' });
   const [isEditing, setIsEditing] = useState(!initialData);
 
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };

@@ -1,10 +1,10 @@
-// src/components/EducationExperience.tsx
+
 import React, { useState } from "react";
 import { TextField, Button, Box } from "@mui/material";
 
 interface EducationExperienceProps {
   onSubmit: (data: { school: string; title: string; date: string }) => void;
-  initialData?: { school: string; title: string; date: string } | null; // Allow null
+  initialData?: { school: string; title: string; date: string } | null; 
 }
 
 

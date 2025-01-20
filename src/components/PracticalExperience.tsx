@@ -1,4 +1,4 @@
-// src/components/PracticalExperience.tsx
+
 import React, { useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
 
@@ -11,7 +11,7 @@ const PracticalExperience: React.FC<PracticalExperienceProps> = ({ onSubmit, ini
   const [formData, setFormData] = useState(initialData || { company: '', position: '', responsibilities: '', dateFrom: '', dateTo: '' });
   const [isEditing, setIsEditing] = useState(!initialData);
 
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };

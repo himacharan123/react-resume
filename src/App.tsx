@@ -6,7 +6,7 @@ import PracticalExperience from './components/PracticalExperience';
 import CVDisplay from './components/CVDisplay';
 import  '../src/styles/App.css';
 
-// Define types for the state
+
 interface GeneralInfoType {
   name: string;
   email: string;

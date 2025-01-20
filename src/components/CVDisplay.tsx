@@ -19,7 +19,7 @@ const CVDisplay: React.FC<CVDisplayProps> = ({ data }) => {
         CV Details
       </Typography>
 
-      {/* General Information Card */}
+
       <Card sx={{ mb: 4 }}>
         <CardContent>
           <Typography variant="h5" component="h3" gutterBottom>
@@ -37,7 +37,7 @@ const CVDisplay: React.FC<CVDisplayProps> = ({ data }) => {
         </CardContent>
       </Card>
 
-      {/* Education Experience Card */}
+     
       <Card sx={{ mb: 4 }}>
         <CardContent>
           <Typography variant="h5" component="h3" gutterBottom>
@@ -55,7 +55,7 @@ const CVDisplay: React.FC<CVDisplayProps> = ({ data }) => {
         </CardContent>
       </Card>
 
-      {/* Practical Experience Card */}
+      
       <Card>
         <CardContent>
           <Typography variant="h5" component="h3" gutterBottom>
